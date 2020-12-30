@@ -15,6 +15,13 @@ class CreatePhotoTable extends Migration
     {
         Schema::create('photo', function (Blueprint $table) {
             $table->id();
+            $table->text("title");
+            $table->text("description");
+            $table->binary("file");
+            $table->date("date");
+            $table->bigInteger("resolution");
+            $table->bigInteger("width");
+            $table->bigInteger("height");
             $table->timestamps();
         });
     }
