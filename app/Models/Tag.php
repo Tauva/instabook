@@ -9,4 +9,8 @@ class Tag extends Model
 {
     use HasFactory;
 
+    public function photo(){
+        return $this->belongsTo(Photo_Tag::class);
+    }
+
 }

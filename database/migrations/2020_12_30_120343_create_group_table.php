@@ -14,7 +14,7 @@ class CreateGroupTable extends Migration
     public function up()
     {
         Schema::create('group', function (Blueprint $table) {
-            $table->id();
+            $table->id("group_id");
             $table->text("name");
             $table->text("description");
             $table->timestamps();

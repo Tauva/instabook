@@ -20,7 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13108778-a969-4d59-85b8-c4f52c9ca65c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Models/Group_Photo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Group_User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Photo_Tag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Photo_user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Group.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Group.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Photo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Tag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_30_104353_create_comment_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_30_104353_create_comment_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_30_120229_create_tag_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_30_120229_create_tag_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_30_120259_create_photo_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_30_120259_create_photo_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_30_120343_create_group_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_30_120343_create_group_table.php" afterDir="false" />
@@ -30,7 +40,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -155,6 +165,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -171,7 +182,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609327909260</updated>
-      <workItem from="1609327910394" duration="5258000" />
+      <workItem from="1609327910394" duration="7421000" />
+      <workItem from="1609339491455" duration="7011000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <created>1609328190082</created>
@@ -196,6 +208,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first push" />
