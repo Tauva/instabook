@@ -19,21 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13108778-a969-4d59-85b8-c4f52c9ca65c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Models/Group_Photo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Group_User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Photo_Tag.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Photo_user.php" afterDir="false" />
+    <list default="true" id="13108778-a969-4d59-85b8-c4f52c9ca65c" name="Default Changelist" comment="model+pivots">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Group.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Group.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Photo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Tag.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Group_User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Group_User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_30_104353_create_comment_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_30_104353_create_comment_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_30_120229_create_tag_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_30_120229_create_tag_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_30_120259_create_photo_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_30_120259_create_photo_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_30_120343_create_group_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_30_120343_create_group_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +172,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609327909260</updated>
       <workItem from="1609327910394" duration="7421000" />
-      <workItem from="1609339491455" duration="7011000" />
+      <workItem from="1609339491455" duration="8849000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <created>1609328190082</created>
@@ -192,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609328190082</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="model+pivots">
+      <created>1609420993246</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609420993246</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,12 +208,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first push" />
-    <option name="LAST_COMMIT_MESSAGE" value="first push" />
+    <MESSAGE value="model+pivots" />
+    <option name="LAST_COMMIT_MESSAGE" value="model+pivots" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="555" y="254" width="800" height="572" key="Vcs.Push.Dialog.v2" timestamp="1609328202382">
+    <state x="449" y="172" width="1022" height="737" key="SettingsEditor" timestamp="1609429498891">
       <screen x="0" y="27" width="1920" height="1020" />
     </state>
-    <state x="555" y="254" width="800" height="572" key="Vcs.Push.Dialog.v2/0.27.1920.1020@0.27.1920.1020" timestamp="1609328202382" />
+    <state x="449" y="172" width="1022" height="737" key="SettingsEditor/0.27.1920.1020@0.27.1920.1020" timestamp="1609429498891" />
+    <state x="555" y="254" width="800" height="572" key="Vcs.Push.Dialog.v2" timestamp="1609420999357">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state x="555" y="254" width="800" height="572" key="Vcs.Push.Dialog.v2/0.27.1920.1020@0.27.1920.1020" timestamp="1609420999357" />
   </component>
 </project>
