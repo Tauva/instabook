@@ -13,12 +13,12 @@ class CreateCommentTable extends Migration
      */
     public function up()
     {
-        Schema::create('comment', function (Blueprint $table) {
+        Schema::create('comments', function (Blueprint $table) {
             $table->id();
             $table->text("text");
-            $table->bigInteger("comment_id");
-            $table->bigInteger("photo_id");
-            $table->bigInteger("user_id");
+            $table->unsignedBigInteger("comment_id");
+            $table->unsignedBigInteger("photo_id");
+            $table->unsignedbigInteger("user_id");
             $table->timestamps();
         });
     }
@@ -30,6 +30,6 @@ class CreateCommentTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('comment');
+        Schema::dropIfExists('comments');
     }
 }

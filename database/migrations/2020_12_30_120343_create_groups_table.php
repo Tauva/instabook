@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateTagTable extends Migration
+class CreateGroupTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,10 @@ class CreateTagTable extends Migration
      */
     public function up()
     {
-        Schema::create('tag', function (Blueprint $table) {
-            $table->id("tag_id");
+        Schema::create('groups', function (Blueprint $table) {
+            $table->id("group_id");
             $table->text("name");
-            $table->bigInteger("photo_id");
+            $table->text("description");
             $table->timestamps();
         });
     }
@@ -28,6 +28,6 @@ class CreateTagTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('tag');
+        Schema::dropIfExists('groups');
     }
 }
